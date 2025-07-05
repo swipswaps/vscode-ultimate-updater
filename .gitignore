@@ -1,0 +1,73 @@
+# VSCode Ultimate Updater - Git Ignore File
+
+# Logs and temporary files
+*.log
+*.tmp
+/tmp/
+.vscode-dry-run-*.log
+
+# Backup directories (user-specific)
+.vscode-backups/
+.vscode-backups-dry-run/
+
+# Download cache (user-specific)
+.cache/
+.vscode-updates/
+.vscode-updates-dry-run/
+
+# User-specific configuration
+.last_vscode_backup
+.last_vscode_backup_dry_run
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test artifacts
+test_*.log
+debug.log
+update_*.log
+
+# Temporary scripts
+temp_*.sh
+test_temp_*
+
+# Downloaded VSCode packages
+*.rpm
+*.deb
+*.zip
+*.exe
+*.dmg
+
+# Backup files
+*.bak
+*.backup
+settings.json.bak
+
+# Python cache (if using Python for JSON processing)
+__pycache__/
+*.pyc
+*.pyo
+
+# Node.js (if any Node.js tools are added)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development
+local_test/
+dev_test/
+sandbox/
